@@ -1,0 +1,189 @@
+/* CSS RESETER */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+.logoUno {
+    width:200px;
+    height:200px;
+}
+
+.logoGrande {
+    /* con display block estamos haciendo que la imagen se comporte como un bloque  */
+    display: block; 
+    margin-left:auto;
+    margin-right:auto;
+    width:500px;
+    height:250px;
+    
+}
+
+body {
+    background-color: #eff1f6;
+}
+
+header {
+    position:relative;
+    width:80%;
+    height:150px;
+    /* margin: 0 auto se utiliza para centrar */
+    margin: 0 auto; 
+    background-color: #eff1f6;
+}
+
+header ul {
+    font-family: 'Roboto', sans-serif;
+    color:#606060;
+    position: absolute;
+    bottom: 35px;
+    right:0;
+}
+
+header ul li {
+    display:inline-block;
+    margin-left:30px;
+    font-size: 20px;
+
+}
+
+.home {
+    width:100%;
+}
+
+.main {
+    position: relative;
+    /* 50% de su padre (home)  */
+    width:50%;
+    height:700px; 
+    /* margin 0 auto lo centra */
+    margin: 0 auto;           
+} -->
+
+.subtitle {
+    padding:20px;
+    margin:20px;
+    font-family: 'Roboto', sans-serif;
+    color: #606060;
+    text-align: center;
+}
+
+.download {
+    padding:20px;
+    margin:20px;
+    font-family: 'Roboto', sans-serif;
+    color: #606060;
+    text-align: center;
+}
+
+.buttons {
+
+    /* porque si saco este buttons del div se me va todo a la derecha? */
+   text-align:center;
+   border-radius: 12px;
+}
+
+.button {
+    border-radius: 12px;
+    cursor:pointer;
+}
+
+a:link {
+    text-decoration:none;
+    color:#606060;
+    }
+
+
+.section2 {
+    display: flex;
+    justify-content: space-around;
+    height: 600px;
+}
+
+
+
+.concepcionD {
+  width: 400px;
+  height: 400px;
+  background: antiquewhite;
+  text-align: center;
+}
+
+.concepcionD h3 {
+  font-family: 'Roboto', sans-serif;
+  color: #606060;
+  padding: 20px 20px 50px 20px;
+  font-size: 25px;
+}
+
+.imagen {
+  margin-bottom:25px;
+}
+
+
+.button2 {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto', sans-serif;
+  color: #606060;
+  border: 2px solid #4CAF50;
+  border-radius: 12px;
+  cursor: pointer;
+  font-size: 20px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  width: 248px;
+  margin: 0 auto;
+}
+
+.button2 p {
+  font-size: 25px;
+  color: limegreen;
+  margin-left: 18px;
+
+}
+
+

@@ -1,0 +1,54 @@
+___________________
+
+HOME SECTION
+___________________
+
+Background color: #eff1f6
+Text Colors: #606060
+
+Menu:
+About, Meet us, How it works, Contact us (Type: Roboto regular)
+image: Logo_home.svg
+
+Buttons: 
+
+Download 
+Chrome version (Type: Myriad pro)
+image: Chrome_icon
+
+Download 
+Firefox version (Type: Myriad pro)
+image: firefoxlogo
+
+main logo image: Logo.svg
+
+
+___________________
+
+MEET US SECTION
+___________________
+
+Background color: #f6f6f6
+Lines: #e3e3e3
+PARTNER, PROJECT (Roboto regular) Color: #606060
+Ver sitio web (Myriad pro regular) Color: #00bc00
+
+images: parner.png, project1.png, project2.png, computerLogo.svg
+
+___________________
+
+HOW TO SECTION
+___________________
+
+images:Download.svg, Browse.svg, Veerify_icon.svg, isThisTrue_Imagen1, isThisTrue_Imagen2
+
+___________________
+
+CONTACT US SECTION
+___________________
+
+Background color: e3e3e3
+Button color: 2ecc71
+Text: Roboto Regular
+
+image:contact_photo.png
